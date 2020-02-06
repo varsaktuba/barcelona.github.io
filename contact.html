@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>BarcelonaBarcelona</title>
+	 <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+	<link href="css/style.css" rel="stylesheet">
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<style type="text/css">
+body{
+	font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif; 
+	font-size:12px;
+}
+p, h1, form, button{border:0; margin:0; padding:0;}
+.spacer{clear:both; height:1px;}
+/* ----------- My Form ----------- */
+.myform{
+	margin:0 auto;
+	width:400px;
+	padding:14px;
+}
+	/* ----------- basic ----------- */
+	#basic{
+		border:solid 2px #DEDEDE;	
+	}
+	#basic h1 {
+		font-size:14px;
+		font-weight:bold;
+		margin-bottom:8px;
+	}
+	#basic p{
+		font-size:11px;
+		color:#666666;
+		margin-bottom:20px;
+		border-bottom:solid 1px #dedede;
+		padding-bottom:10px;
+	}
+	#basic label{
+		display:block;
+		font-weight:bold;
+		text-align:right;
+		width:140px;
+		float:left;
+	}
+	#basic .small{
+		color:#666666;
+		display:block;
+		font-size:11px;
+		font-weight:normal;
+		text-align:right;
+		width:140px;
+	}
+	#basic input{
+		float:left;
+		width:200px;
+		margin:2px 0 30px 10px;
+	}
+	#basic button{ 
+		clear:both;
+		margin-left:150px;
+		background:#888888;
+		color:#FFFFFF;
+		border:solid 1px #666666;
+		font-size:11px;
+		font-weight:bold;
+		padding:4px 6px;
+	}
+
+
+	/* ----------- stylized ----------- */
+	#stylized{
+		border:solid 2px #b7ddf2;
+		background:#ebf4fb;
+
+	}
+	#stylized h1 {
+		font-size:14px;
+		font-weight:bold;
+		margin-bottom:8px;
+	}
+	#stylized p{
+		font-size:11px;
+		color:#666666;
+		margin-bottom:20px;
+		border-bottom:solid 1px #b7ddf2;
+		padding-bottom:10px;
+	}
+	#stylized label{
+		display:block;
+		font-weight:bold;
+		text-align:right;
+		width:140px;
+		float:left;
+	}
+	#stylized .small{
+		color:#666666;
+		display:block;
+		font-size:11px;
+		font-weight:normal;
+		text-align:right;
+		width:140px;
+	}
+	#stylized input{
+		float:left;
+		font-size:12px;
+		padding:4px 2px;
+		border:solid 1px #aacfe4;
+		width:200px;
+		margin:2px 0 20px 10px;
+	}
+	#stylized button{ 
+		clear:both;
+		margin-left:160px;
+		width:125px;
+		height:31px;
+		background:#444;
+		text-align:center;
+		line-height:31px;
+		color:#FFFFFF;
+		font-size:11px;
+		font-weight:bold;
+	}
+
+</style>
+
+</head>
+ <body>
+   <header class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand pad0" href="#">
+	  <img src="images/IMG_20160709_002339.jpg" alt="Tuba Varsak" title="Tuba Varsak" width="50px" height="50px" class="img-circle">
+	  </a>
+    </div>
+	<span class="logo text-info hidden-xs">
+	<strong>Tuba Varsak
+	</strong>
+	</span>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+       
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="local.html">LOCAL DISHES</a></li>
+		<li><a href="historical.html">HISTORICAL PLACES</a></li>
+		<li><a href="link.html">USEFUL LINKS</a></li>
+		<li><a href="contact.html">CONTACT ME</a></li>
+		<li><a href="r.html">REGISTRATION</a></li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  </header>
+ 
+	<div class="row">
+  <tr>
+		<td colspan="6" width="960" height="400"valign="top"> 
+		</br>
+  </br>
+  </br>
+  </br>
+  </br>
+  </br>
+  </br>
+ 
+		
+		<div id="stylized" class="myform">
+
+<form id="form1" id="form1" action="mail.php" method="POST">
+
+    <label>Name
+        <span class="small">Add your name</span>
+    </label>
+<input type="text" name="name">
+    <label>Email
+        <span class="small">Enter a Valid Email</span>
+    </label>
+<input type="text" name="email">
+    <label>Phone
+        <span class="small">Add a Phone Number</span>
+    </label>
+<input type="text" name="phone">
+
+<br />
+<br />
+
+    <label>Website
+        <span class="small">Your Website</span>
+    </label>
+ <input type="text" name="website">
+
+    <label>Priority  
+        <span class="small">Priority Level  </span>
+    </label>
+
+<select name="priority" size="1">
+<option value="Low">Low</option>
+<option value="Normal">Normal</option>
+<option value="High">High</option>
+<option value="Emergency">Emergency</option>
+</select>
+<br />
+<br />
+<br />
+    <label>Type
+        <span class="small">Type of Contact</span>
+    </label>
+<select name="type" size="1">
+<option value="update">Website Update</option>
+<option value="change">Information Change</option>
+<option value="addition">Information Addition</option>
+<option value="new">New Products</option>
+</select>
+<br />
+<br />
+<br />
+
+
+    <label>Message
+        <span class="small">Type Your Message</span>
+    </label>
+<textarea name="message" rows="6" cols="25"></textarea><br />
+
+    <button type="submit" value="Send" style="margin-top:15px;">Submit</button>
+<div class="spacer"></div>
+
+</form>
+
+</div> <!-- end of form class -->
+<footer>
+   <div class="row well">
+				<div class="container">
+				<div class="col-md-9 text-info">
+					<strong>Copyright &copy; Tuba Varsak</strong>
+					</div>
+				<div class="col-md-3">
+					<ul class="social-network social-circle">
+					<li><a class='blur' href='http://www.facebook.com/tugba.varsak' rel='nofollow' target='_blank'><img alt='facebook' border='0' height='40'
+					src='http://imagizer.imageshack.us/v2/100x75q90/924/kxACOB.png' width='40' /></a></li>
+					<li><a class='blur' href='http://twitter.com/vuuarsak' rel='nofollow' target='_blank'><img alt='twitter' border='0' height='40' 
+					src='http://imagizer.imageshack.us/v2/100x75q90/923/XmKq2a.jpg' width='40'/></a></li>
+					<li><a class='blur' href='https://www.instagram.com/varsakkkkkkkk/?hl=tr' rel='nofollow' target='_blank'><img alt='instagram' border='0' height='40'
+					src='http://imagizer.imageshack.us/v2/100x75q90/923/kSIFf5.jpg' width='40'/></a></li>
+				</ul>
+				</div>
+				</div>
+   
+   </footer>
+  </body>
+</html>
