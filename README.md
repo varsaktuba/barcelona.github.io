@@ -1,2 +1,2 @@
 # barcelona.github.io
-website 
+responsive website
